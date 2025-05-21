@@ -1,0 +1,93 @@
+export const Theme = {
+  colors: {
+    primary: '#0D6D6E',
+    primaryLight: '#17A0A1',
+    primaryDark: '#095455',
+    accent: '#C1A661',
+    accentLight: '#D8C38F',
+    accentDark: '#9A844D',
+    background: {
+      primary: '#FFFFFF',
+      secondary: '#F8F9FA',
+      tertiary: '#F0F2F5',
+    },
+    text: {
+      primary: '#1A1A1A',
+      secondary: '#666666',
+      tertiary: '#999999',
+      inverse: '#FFFFFF',
+    },
+    success: '#4CAF50',
+    warning: '#FF9800',
+    error: '#F44336',
+    divider: '#E0E0E0',
+  },
+  spacing: {
+    xs: 4,
+    sm: 8,
+    md: 16,
+    lg: 24,
+    xl: 32,
+    xxl: 48,
+  },
+  borderRadius: {
+    xs: 4,
+    sm: 8,
+    md: 12,
+    lg: 16,
+    xl: 24,
+    round: 9999,
+  },
+  shadows: {
+    small: {
+      shadowColor: '#000',
+      shadowOffset: { width: 0, height: 1 },
+      shadowOpacity: 0.1,
+      shadowRadius: 3,
+      elevation: 1,
+    },
+    medium: {
+      shadowColor: '#000',
+      shadowOffset: { width: 0, height: 2 },
+      shadowOpacity: 0.15,
+      shadowRadius: 5,
+      elevation: 2,
+    },
+    large: {
+      shadowColor: '#000',
+      shadowOffset: { width: 0, height: 4 },
+      shadowOpacity: 0.2,
+      shadowRadius: 8,
+      elevation: 4,
+    },
+  },
+  typography: {
+    fontFamilies: {
+      primary: 'NotoSans-Regular',
+      primaryBold: 'NotoSans-Bold',
+      arabic: 'Amiri-Regular',
+      arabicBold: 'Amiri-Bold',
+    },
+    fontSize: {
+      xs: 12,
+      sm: 14,
+      md: 16,
+      lg: 18,
+      xl: 20,
+      xxl: 24,
+      xxxl: 32,
+    },
+    lineHeight: {
+      tight: 1.2,
+      normal: 1.5,
+      relaxed: 1.8,
+    },
+  },
+  animations: {
+    durations: {
+      fast: 150,
+      normal: 300,
+      slow: 500,
+    },
+  },
+};
